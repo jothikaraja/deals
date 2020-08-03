@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/app1"
+    android:layout_centerInParent="true"
+    android:paddingTop="100dp">
+
+    <EditText
+        android:id="@+id/product"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="product"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/brand"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/product"
+        android:layout_marginBottom="10dp"
+        android:hint="brand"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/pstart"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/brand"
+        android:layout_marginBottom="10dp"
+        android:hint="price start"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/pend"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/pstart"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:hint="price end"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pend"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:text="search"
+        android:layout_centerHorizontal="true"
+        android:background="@color/button"
+        >
+
+    </Button>
+
+
+</RelativeLayout>
